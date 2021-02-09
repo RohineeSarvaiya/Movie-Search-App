@@ -1,0 +1,50 @@
+#movie-searchable{
+    margin-top: 20px;
+    margin-bottom: 30px;;
+}
+
+.movie{
+    margin-bottom: 50px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+section img{
+    width : 400px;
+    height: auto;
+    transition: 250ms all;
+
+}
+
+img:hover{
+    margin-top: 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.content{
+    border: 1px solid black;
+    display: none;
+    padding: 30px;
+}
+#content-close{
+    cursor: pointer;
+}
+
+.content div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.content-display{
+    display: block;
+    
+}
+

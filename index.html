@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Movie App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+      
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to My Movie App</h1>
+            <br>
+            <div >
+                <form id="myform">
+                <div class="row">
+                    <div class="form-group col-xs-4">
+                        <input  id="inputtype" type="text" placeholder="search here" class="form-control input-lg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <button id="searchbtn" type="submit" class="btn btn-primary btn-lg">search</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+
+        </div>
+       <div class="container" id="movie-searchable"></div>
+       <div class="container" id="movie-container"></div>
+
+
+       <script  src="api.js"></script>
+        <script  src="app.js"></script>
+
+    </body>
+    
+</html>
